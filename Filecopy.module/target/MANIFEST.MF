@@ -1,0 +1,16 @@
+Manifest-Version: 1.0.0.202005170750
+Bundle-SymbolicName: Filecopy.module
+Bundle-ManifestVersion: 2
+TIBCO-BW-Edition: bwcf
+Bundle-Vendor: TIBCO Software Inc.
+TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
+Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",com.tib
+ co.bw.palette; filter:="(name=bw.file)"
+TIBCO-BW-ConfigProfile: META-INF/default.substvar
+TIBCO-BW-Version: 2.5.2 V67 2020-03-05
+Bundle-Name: Filecopy Module
+Bundle-Version: 1.0.0.202005170750
+Bundle-ClassPath: .
+TIBCO-BW-ApplicationModule: META-INF/module.bwm
+TIBCO-BW-JobSharedVariables: META-INF/module.jsv
+
