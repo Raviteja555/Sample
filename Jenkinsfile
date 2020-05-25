@@ -17,7 +17,7 @@ agent any
 					}
 		stage('push'){
 			steps{
-				echo %DOCKERPASS_USR%
+				bat 'echo %DOCKERPASS_USR%'
 				 }
 					}
 		stage('deploy'){
