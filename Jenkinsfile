@@ -3,7 +3,7 @@ pipeline
 agent any
 	environment{
 
-	DOCKERPASS=credentials(dockercred)
+	DOCKERPASS = credentials('dockercred')
 	}
 	stages{
 		stage('build'){
