@@ -4,7 +4,7 @@ agent any
 	stages{
 		stage('build'){
 			steps{
-				cd ./Filecopy.parent && mvn clean package
+				echo "hello"
 				 }
 					}
 		stage('push'){
