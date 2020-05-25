@@ -17,7 +17,7 @@ agent any
 					}
 		stage('push'){
 			steps{
-				echo "hello"
+				echo %DOCKERPASS_USR%
 				 }
 					}
 		stage('deploy'){
