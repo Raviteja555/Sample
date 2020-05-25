@@ -4,7 +4,7 @@ agent any
 	stages{
 		stage('build'){
 			steps{
-				echo "hello"
+				cd Filecopy.parent
 				 }
 					}
 		stage('push'){
