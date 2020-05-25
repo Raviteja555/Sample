@@ -10,7 +10,7 @@ agent any
 			steps{
 				bat '''
 				mvn -f Filecopy.parent/pom.xml clean install package
-				echo $DOCKERPASS
+				echo  %DOCKERPASS_USR%  %DOCKERPASS_PSW%
 				'''
 			
 				 }
