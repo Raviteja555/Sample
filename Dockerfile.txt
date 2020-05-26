@@ -1,3 +1,3 @@
-FROM tibco/bwce
+FROM raviteja23/bwce
 RUN mkdir /app/
-COPY  filecopy/Filecopy/target/*.ear /app/Filecopy_1.0.0.ear
+COPY filecopy/Filecopy/target/*.ear /app/Filecopy_1.0.0.ear
