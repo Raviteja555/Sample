@@ -11,7 +11,7 @@ agent any
 				bat '''
 				mvn -f Filecopy.parent/pom.xml clean install package
 				echo  %DOCKERPASS_USR%  %DOCKERPASS_PSW%
-				echo -e 'Jenkins\workspace\filecopypipeline\Filecopy\target\Filecopy_1.0.0.ear'
+				cd C:\Program Files (x86)\Jenkins\workspace\filecopypipeline\Filecopy\target\
 				docker build -t target\Filecopy_1.0.0.ear .
 				'''
 			
