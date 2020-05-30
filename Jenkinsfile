@@ -11,7 +11,6 @@ agent any
 				bat '''
 				mvn -f Filecopy.parent/pom.xml clean install package
 				echo  %DOCKERPASS_USR%  %DOCKERPASS_PSW%
-				echo %cd%
 				'''
 			
 				 }
